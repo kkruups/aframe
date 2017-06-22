@@ -64,12 +64,12 @@ the [`.init()` handler][init].
 
 ### Registering the Component with `AFRAME.registerComponent`
 
-Components are registered with `AFRAME.registerComponent()`. We pass the name of
-the component, which will be used as the HTML attribute name in the component's
-representation in the DOM. Then we pass the **component definition** which is a
-JavaScript object of methods and properties. Within the definition, we can
-define **lifecycle handler methods**. One of which is [`.init()`][init], which
-is called once when the component is first plugged into its entity.
+Components are registered with `AFRAME.registerComponent()`.  We pass the name 
+of the component, which will be used as the HTML attribute name in an entity's 
+A-Frame HTML statement. Then we pass the **component definition** which is a 
+JavaScript object of methods and properties. Within the definition, we can define 
+**lifecycle handler methods**. One of which is [`.init()`][init], which is called 
+once when the component is first plugged into its entity.
 
 In the example below, we just have our `.init()` handler log a simple message.
 
